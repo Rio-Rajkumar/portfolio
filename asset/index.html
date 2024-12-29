@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <!-- box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- custom css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+        `
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skill</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Rajkumar</h1>
+            <h3>And I'm a <span>UI developer</span></h3>
+            <p>A passionate front-end developer skilled in HTML, CSS, and JavaScript. I'm eager to learn and grow in
+                building responsive, user-friendly web experiences.</p>
+            <div class="social-media">
+                <a href=""><i class='bx bxl-facebook'></i></a>
+                <a href=""><i class='bx bxl-twitter'></i></a>
+                <a href=""><i class='bx bxl-instagram-alt'></i></a>
+                <a href=""><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="./Raj kumar  (2).pdf" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="./Code typing-amico.svg" alt="">
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./Raj.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Aspiring Front End Developer with a strong foundation in HTML, CSS, and JavaScript. Passionate about
+                creating responsive and user-friendly web applications. Familiar with frameworks like React and
+                Bootstrap, and eager to learn new technologies. Demonstrated ability to collaborate in team environments
+                through academic projects. Seeking an opportunity to contribute to innovative web solutions and grow my
+                skills in a dynamic setting.</p>
+            <button onclick=" add()" class="btn">Read More</button>
+            <div id="loyout"></div>
+            <div id="para">
+                <div id="para-content">
+                <h2 style="text-align: center;">Name</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa aperiam nostrum qui inventore nemo
+                    repellendus sequi perferendis rem tenetur corrupti recusandae voluptatem exercitationem alias et,
+                    placeat nam, dignissimos nihil repellat.</p>
+                 <button onclick="remove()" class="btn">Delete</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section -->
+    <section class="skill" id="skills">
+        <h2 class="heading">Our <span>Skill</span></h2>
+
+        <div class="skill-containet">
+            <div class="skill-box">
+                <i class='bx bxl-html5'></i>
+                <h3>html</h3>
+                <p>HyperText Markup Language</p>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-css3'></i>
+                <h3>Css</h3>
+                <p>cascading style sheets</p>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-bootstrap'></i>
+                <h3>Bootsrap</h3>
+                <p>Front-end Framework for Developing Responsive Websites</p>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-javascript'></i>
+                <h3>Java Script</h3>
+                <p>Javascript Library</p>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-github'></i>
+                <h3>Github</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, excepturi.</p>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-react'></i>
+                <h3>React Js</h3>
+                <p>Javascript Library for Buliding User Interfaces</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfollio -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">latest <span>project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./top-view-table-full-delicious-food-composition.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Upcoming Zomoto</h4>
+                    <p>Landing page</p>
+                    <a href="https://rio-rajkumar.github.io/zomato-project/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./person-working-html-computer.jpg" alt="" height="230vh">
+                <div class="portfolio-layer">
+                    <h4>wep Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, repellendus. Commodi esse vero</p>
+                    <a href="https://rio-rajkumar.github.io/trustco-project/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./ohif-QkoJUi.webp" alt="">
+                <div class="portfolio-layer">
+                    <h4>wep Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, repellendus. Commodi esse vero</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+        <h2 class="heading">contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="send Message" class="btn">
+        </form>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>copyright &copy; 2024 by codehal | All Right Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!-- java script -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
