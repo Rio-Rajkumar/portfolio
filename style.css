@@ -225,12 +225,12 @@ span{
     text-align: center;
     border: 0.5rem solid var(--bg-color);
     transition: .5s ease;
-    animation: leftmove .4s ease infinite;
 }
 .skill-containet .skill-box:hover{
     border: 0.5rem solid var(--bg-color);
     border-color: var(--main-color);
-    transform: scale(1.02);
+    /* transform: scale(180deg); */
+    animation: leftmove .4s ease infinite;
 
 }
 .skill-box i{
@@ -246,7 +246,13 @@ span{
     margin: 1rem 0 3rem ;
 }
 @keyframes leftmove{
-    
+    0%{
+        transform: rotatey(-180deg);
+    }
+    100%{
+        transform: rotateY(0deg);
+    }
+
 }
 
 /* portfolio */
